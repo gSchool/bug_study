@@ -2,9 +2,9 @@
 
 $(document).ready(function(){
 
-  $("#year").html(current_year);
-  var current_year = new Date().getFullYear();
 
+  var current_year = new Date().getFullYear();
+  $("#year").html(current_year);
   var bug_list = ["butterfly", "ladybug", "mosquito", "pincher", "mantis"];
 
   var random_bug_number = Math.floor(Math.random() * bug_list.length + 1);
