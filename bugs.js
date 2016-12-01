@@ -1,5 +1,5 @@
 //dynamically get the year and add to the footer
-
+"use strict";
 $(document).ready(function(){
 
   $("#year").html(current_year);
@@ -11,7 +11,7 @@ $(document).ready(function(){
   $("#author").html(bug_list[random_bug_number]);
 
   for (var i = 0; i < bug_list.length; i++) {
-    $("#bug_display").append("<li>"+bug_list[i]+"<img src='images/"+bug_list[i]+".jpg'/></li>");
+    $("#bug_display").append("<li>"+bug_list[i]+"<img src='images/"+bug_list[i]+".png'/></li>");
   }
 
-})
+});

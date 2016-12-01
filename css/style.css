@@ -12,8 +12,8 @@ header {
 
 
 @font-face {
-    font-family: wijaya_fresh;
-    src: url(/fonts/WIJAYA_FRESH.ttf);
+    font-family: "wijaya_fresh";
+    src: url(WIJAYA_FRESH.ttf);
 }
 
 
